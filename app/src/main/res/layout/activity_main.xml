@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/animation_list"
+    android:padding="2dp"
+    android:id="@+id/linearlayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".16">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:padding="5dp"
+        android:background="@drawable/bg3"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="My Credible Info"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif-medium"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:background="@color/white_500"
+            android:id="@+id/emailfirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_email_id"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:textStyle="italic"
+            android:inputType="textEmailAddress" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:background="@color/white_500"
+            android:id="@+id/passfirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_password"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".1"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/SignUpFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Signup"
+            android:background="@drawable/bg1"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".1"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/LoginFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:background="@drawable/bg1"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+</LinearLayout>

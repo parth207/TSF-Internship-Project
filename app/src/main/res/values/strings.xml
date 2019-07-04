@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TSF Internship Phase 2</string>
+    <string name="since">Since</string>
+    <string name="enter_date">enter date</string>
+    <string name="to">To</string>
+    <string name="enter_subject">enter subject</string>
+    <string name="enter_college_university_name">enter college/university name</string>
+    <string name="next">next</string>
+    <string name="login">login</string>
+    <string name="enter_password">enter password</string>
+    <string name="Signup">signup</string>
+    <string name="enter_email_id">enter email-id</string>
+    <string name="Professional_Details">Professional Details</string>
+    <string name="enter_organization_name">enter organisation name</string>
+    <string name="enter_designation">enter designation</string>
+    <string name="currently_working_here">Currently Working Here</string>
+    <string name="submit">submit</string>
+    <string name="account">ACCOUNT</string>
+    <string name="help">HELP</string>
+    <string name="logout">LOGOUT</string>
+    <string name="go_back">go back</string>
+    <string name="enter_data">enter data</string>
+    <string name="professional_details">Professional Details</string>
+    <string name="this_is_my_college_and_my_university">my college and my university</string>
+    <string name="professional_profile">Professional Profile</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="the_git_wit_wale_link">Git Link</string>
+</resources>

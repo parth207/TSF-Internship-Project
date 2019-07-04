@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".45"
+        android:background="@drawable/bg3"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight=".45"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="Profile Picture"
+                android:src="@drawable/nv" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight=".11"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/me"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:text="Me"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight=".11"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/col"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="@string/this_is_my_college_and_my_university"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textColor="@color/white_500"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight=".11"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/Loca"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="My Location"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight=".11"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:src="@drawable/gl"
+                android:text="@string/the_git_wit_wale_link"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight=".11"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/linking"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="my website"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--This ends the above 40% of the page-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".05" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/person"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="Personal Profile"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Prof"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="@string/professional_profile"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/educational"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="Educational Profile"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight=".1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            android:padding="10dp"
+            android:text="Delete Details"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

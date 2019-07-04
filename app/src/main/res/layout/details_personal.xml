@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/animation_list"
+    android:id="@+id/linearlayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight=".3"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Personal Details"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:background="@color/white_500"
+        android:layout_margin="5dp"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:hint="Enter Name"
+        android:padding="10dp"
+        android:textAllCaps="true" />
+
+    <EditText
+        android:id="@+id/email"
+        android:background="@color/white_500"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:hint="Enter Email"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/mobile"
+        android:background="@color/white_500"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:hint="Enter Mobile"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/location"
+        android:background="@color/white_500"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:hint="Enter Location"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/links"
+        android:background="@color/white_500"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:hint="Enter Links"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/skills"
+        android:background="@color/white_500"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:hint="Enter Skills"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/nextper"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:layout_gravity="center"
+        android:text="Next"
+        android:textSize="25sp"
+        android:padding="10dp"/>
+
+</LinearLayout>

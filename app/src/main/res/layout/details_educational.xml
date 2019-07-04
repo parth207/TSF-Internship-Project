@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/animation_list"
+    android:id="@+id/linearlayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".24"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight=".3"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Educational Details"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/college"
+        android:background="@color/white_500"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:padding="10dp"
+        android:hint="@string/enter_college_university_name" />
+
+    <EditText
+        android:id="@+id/Subject"
+        android:background="@color/white_500"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:padding="10dp"
+        android:hint="@string/enter_subject" />
+
+    <EditText
+        android:id="@+id/checkBox"
+        android:background="@color/white_500"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:padding="10dp"
+        android:hint="Location" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:text="@string/since"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            android:id="@+id/sinceDate"
+            android:background="@color/white_500"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".30"
+            android:padding="5dp"
+            android:hint="@string/enter_date"
+            android:inputType="date" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:text="@string/to"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fromDate"
+            android:background="@color/white_500"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".30"
+            android:padding="5dp"
+            android:hint="@string/enter_date"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/certificates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:text="Add Certificates"
+        android:textSize="20sp"
+        android:layout_gravity="bottom"
+        android:gravity=""
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/edunext"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:layout_gravity="center"
+        android:text="@string/next"
+        android:textSize="18sp"
+        android:padding="10dp" />
+
+</LinearLayout>

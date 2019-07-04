@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/animation_list"
+    android:id="@+id/linearlayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/Professional_Details"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:background="@color/white_500"
+        android:id="@+id/org"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:hint="@string/enter_organization_name"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:background="@color/white_500"
+        android:id="@+id/Designation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:hint="@string/enter_designation"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight=".06"
+        android:background="@color/white_500"
+        android:focusedByDefault="true"
+        android:padding="5dp"
+        android:text="@string/currently_working_here"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:text="Since"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="NestedWeights" />
+
+        <EditText
+            android:background="@color/white_500"
+            android:id="@+id/start_Date"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".30"
+            android:hint="@string/enter_date"
+            android:inputType="date" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:text="@string/to"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:background="@color/white_500"
+            android:id="@+id/end_Date"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".30"
+            android:hint="@string/enter_date"
+            android:inputType="date"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/white_500"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        tools:ignore="UselessLeaf" />
+
+    <Button
+        android:id="@+id/subprof"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight=".1"
+        android:layout_gravity="center"
+        android:text="@string/submit"
+        android:textSize="25sp" />
+
+</LinearLayout>
